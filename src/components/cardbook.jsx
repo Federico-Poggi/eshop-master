@@ -6,7 +6,7 @@ const Book = (props) => {
   return (
     <Row className="  w-100 justify-content-center ">
       <Row className=" p-2 w-75  justify-content-center">
-        {fantasy.map((thumb) => {
+        {Fantasy.map((thumb) => {
           return (
             <Card className="mx-3 my-3 w-25">
               <CardImg src={thumb.img} className="h-75 pt-2"></CardImg>
